@@ -1,7 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
+.wrp{
+    overflow: hidden;
+}
 .img-fluid{
     max-width: 100%;
     height: auto;
@@ -217,7 +223,8 @@ body {
     height: 75px;
 }
 .franshise-items__item{
-
+    display: flex;
+    flex-direction: column;
 }
 .franshise-items__item.color1 .franshise-items__figure{
     border: 5px solid #1262D8;
@@ -247,6 +254,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+    padding: 10px;
     margin: 0 0 92px;
 }
 .franshise-items__figure:before{
@@ -261,22 +269,31 @@ body {
     pointer-events: none;
     z-index: -1;
 }
+.franshise-items__content{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 45px;
+}
 .franshise-items__list{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
-    text-transform: capitalize;
     color: #000000;
     list-style: none;
-    margin: 0 0 45px;
+    margin: 0;
     padding: 0;
 }
 .franshise-items__list li{
     position: relative;
     padding-left: 56px;
     margin-bottom: 27px;
+}
+.franshise-items__list li:last-child{
+    margin-bottom: 0;
 }
 .franshise-items__list li:before{
     content: '';
@@ -301,4 +318,58 @@ body {
 }
 .franshise-items .franshise-btn{
     max-width: 220px;
+    margin: auto 0 0;
+}
+
+@media (max-width: 1023px) {
+    .franshise-hero__body{
+        top: 82px;
+    }
+    .franshise-hero__decor .left{
+        width: 76px;
+        height: 56px;
+    }
+    .franshise-hero__decor .right{
+        width: 121px;
+        height: 105px;
+    }
+    .franshise-hero__decor .bottom{
+        width: 80px;
+        height: 124px;
+        bottom: -67px;
+    }
+    .franshise-hero__decor .plus{
+        bottom: 122px;
+        left: 40px;
+    }
+    .franshise-hero__text{
+        flex: 1 0 500px;
+        max-width: 500px;
+        position: relative;
+    }
+    .franshise-hero__title{
+        font-size: 34px;
+        line-height: 48px;
+        margin: -5px 0 14px;
+    }
+    .franshise-hero__subtitle{
+        font-size: 22px;
+        line-height: 32px;
+        margin: 0 0 39px;
+    }
+
+    .franshise-items__figure{
+        width: 200px;
+        height: 200px;
+        margin: 0 0 62px;
+
+    }
+    .franshise-items__list{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .franshise-items__list li{
+        padding-left: 36px;
+        margin-bottom: 20px;
+    }
 }
