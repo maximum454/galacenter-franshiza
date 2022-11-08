@@ -5,6 +5,22 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+.d-mobile{
+    display: none;
+}
+.d-desktop{
+    display: block;
+}
+@media (max-width: 767px) {
+    .d-mobile{
+        display: block!important;
+    }
+    .d-desktop{
+        display: none!important;
+    }
+}
+
 .wrp{
     overflow: hidden;
 }
@@ -372,4 +388,136 @@ body {
         padding-left: 36px;
         margin-bottom: 20px;
     }
+}
+
+@media (max-width: 767px) {
+    .franshise-btn{
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 14px;
+        padding: 8px;
+        border-width: 1px;
+    }
+    .franshise-btn:before{
+        top: 2px;
+        left: 3px;
+    }
+
+    .franshise-hero__decor .left{
+        width: 49px;
+        height: 40px;
+        top: -1px;
+        left: -7px;
+    }
+    .franshise-hero__decor .right{
+        width: 121px;
+        height: 105px;
+    }
+    .franshise-hero__decor .right,
+    .franshise-hero__decor .bottom,
+    .franshise-hero__decor .plus{
+        display: none;
+    }
+    .franshise-hero__body{
+        top: 34px;
+        gap: 20px;
+    }
+    .franshise-hero__text{
+        flex: 1 0 100%;
+        max-width: 234px;
+        position: relative;
+    }
+    .franshise-hero__text:before{
+        top: 47px;
+        right: 45px;
+        background-size: 100%;
+        width: 16px;
+        height: 16px;
+    }
+    .franshise-hero__text:after{
+        top: 116px;
+        left: -51px;
+        background-size: 100%;
+    }
+    .franshise-hero__logo{
+        width: 48px;
+        height: 42px;
+    }
+    .franshise-hero__title{
+        font-size: 20px;
+        line-height: 27px;
+        margin: -4px 0 10px;
+    }
+    .franshise-hero__subtitle{
+        font-size: 16px;
+        line-height: 22px;
+        margin: 0 0 10px;
+        max-width: 170px;
+    }
+    .franshise-hero .franshise-btn{
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 14px;
+        padding: 8px;
+        max-width: fit-content;
+    }
+
+    .franshise-items{
+        margin-bottom: 100px;
+    }
+    .franshise-items__body{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 54px;
+    }
+    .franshise-items__item{
+        display: block;
+        width: 100%;
+    }
+    .franshise-items__figure{
+        width: 177px;
+        height: 177px;
+        margin: 0 auto 47px;
+    }
+    .franshise-items__figure:before{
+        top: 12px;
+        left: 12px;
+    }
+    .franshise-items__content{
+        padding-left: 68px;
+        gap: 41px;
+    }
+    .franshise-items__list{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .franshise-items__list li{
+        position: relative;
+        padding-left: 44px;
+        margin-bottom: 27px;
+    }
+    .franshise-items__list li:before{
+        top: 2px;
+        left: 0;
+        width: 12px;
+        height: 12px;
+    }
+    .franshise-items__list li:after{
+        top: 9px;
+        left: 6px;
+        width: 6px;
+        height: 6px;
+    }
+    .franshise-items .franshise-btn{
+        font-size: 13px;
+        line-height: 14px;
+        padding: 14px;
+        border-width: 3px;
+        max-width: 195px;
+    }
+    .franshise-btn:before{
+        top: 3px;
+        left: 2px;
+    }
+
 }
