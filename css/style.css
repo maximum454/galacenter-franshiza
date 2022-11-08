@@ -7,7 +7,7 @@ body {
 }
 
 .d-mobile{
-    display: none;
+    display: none!important;
 }
 .d-desktop{
     display: block;
