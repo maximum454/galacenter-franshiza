@@ -9,101 +9,132 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.css" integrity="sha512-UO+dUiFTr6cCaPZKCzXEGhYsuK8DkGAS5iThyMUrtHsg+INCFyRM3GiqJ4rjuvfEyn81XGjpfmjSwwR1dAjAsw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal-default-theme.min.css" integrity="sha512-jRxwiuoe3nt8lMSnOzNEuQ7ckDrLl31dwVYFWS6jklXQ6Nzl7b05rrWF9gjSxgOow5nFerdoN6CBB4gY5m5nDw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+          integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.css"
+          integrity="sha512-UO+dUiFTr6cCaPZKCzXEGhYsuK8DkGAS5iThyMUrtHsg+INCFyRM3GiqJ4rjuvfEyn81XGjpfmjSwwR1dAjAsw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal-default-theme.min.css"
+          integrity="sha512-jRxwiuoe3nt8lMSnOzNEuQ7ckDrLl31dwVYFWS6jklXQ6Nzl7b05rrWF9gjSxgOow5nFerdoN6CBB4gY5m5nDw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="wrp">
-        <div class="franshise-hero">
-            <div class="franshise-hero__decor">
-                <div class="left"></div>
-                <div class="right"></div>
-                <div class="bottom"></div>
-                <div class="plus"></div>
+<div class="wrp">
+    <div class="franshise-hero">
+        <div class="franshise-hero__decor">
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="bottom"></div>
+            <div class="plus"></div>
+        </div>
+        <img class="franshise-hero__bg img-fluid d-desktop" src="./img/hero-bg.png" width="1440" height="714" alt="">
+        <img class="franshise-hero__bg img-fluid d-mobile" src="./img/hero-bg-mobile.png" width="360" height="300"
+             alt="">
+        <div class="franshise-hero__body">
+            <div class="franshise-hero__logo">
+                <img class="img-fluid" src="./img/logo.svg" width="102" height="91" alt="">
             </div>
-            <img class="franshise-hero__bg img-fluid d-desktop" src="./img/hero-bg.png" width="1440" height="714" alt="">
-            <img class="franshise-hero__bg img-fluid d-mobile" src="./img/hero-bg-mobile.png" width="360" height="300" alt="">
-            <div class="franshise-hero__body">
-                <div class="franshise-hero__logo">
-                    <img class="img-fluid" src="./img/logo.svg" width="102" height="91" alt="">
-                </div>
-                <div class="franshise-hero__text">
-                    <h1 class="franshise-hero__title"><span class="color1">магазин</span> <span class="color2">франшиз</span> <span class="color3">гала-центр</span></h1>
-                    <p class="franshise-hero__subtitle">Гарантируем открытие успешного проекта</p>
-                    <a href="#" class="franshise-btn" data-remodal-target="modal-callback">заявка на консультацию</a>
-                </div>
+            <div class="franshise-hero__text">
+                <h1 class="franshise-hero__title"><span class="color1">магазин</span> <span
+                        class="color2">франшиз</span> <span class="color3">гала-центр</span></h1>
+                <p class="franshise-hero__subtitle">Гарантируем открытие успешного проекта</p>
+                <a href="#" class="franshise-btn" data-remodal-target="modal-callback">заявка на консультацию</a>
             </div>
         </div>
+    </div>
 
-        <div class="franshise-items">
-            <div class="franshise-items__body">
-                <div class="franshise-items__item color1">
-                    <figure class="franshise-items__figure">
-                        <img class="img-fluid" src="./img/logo-galamart.png" width="208" height="51" alt="">
-                    </figure>
-                    <div class="franshise-items__content">
-                        <ul class="franshise-items__list">
-                            <li>Вложения от 10 млн</li>
-                            <li>Площадь от 220 кв.м</li>
-                            <li>Окупаемость 20-36  мес</li>
-                            <li>Доход от 10% от ТО в мес</li>
-                            <li>500+ магазинов по России</li>
-                        </ul>
-                        <a href="" class="franshise-btn color1">подробнее</a>
-                    </div>
+    <div class="franshise-items">
+        <div class="franshise-items__body">
+            <div class="franshise-items__item color1">
+                <figure class="franshise-items__figure">
+                    <img class="img-fluid" src="./img/logo-galamart.png" width="208" height="51" alt="">
+                </figure>
+                <div class="franshise-items__content">
+                    <ul class="franshise-items__list">
+                        <li>Вложения от 10 млн</li>
+                        <li>Площадь от 220 кв.м</li>
+                        <li>Окупаемость 20-36 мес</li>
+                        <li>Доход от 10% от ТО в мес</li>
+                        <li>500+ магазинов по России</li>
+                    </ul>
+                    <a href="" class="franshise-btn color1">подробнее</a>
                 </div>
-                <div class="franshise-items__item color2">
-                    <figure class="franshise-items__figure">
-                        <img class="img-fluid" src="./img/logo-mpr.svg" width="226" height="80" alt="">
-                    </figure>
-                    <div class="franshise-items__content">
-                        <ul class="franshise-items__list">
-                            <li>Вложения от 3,9 млн руб</li>
-                            <li>Площадь от 80 кв.м</li>
-                            <li>Окупаемость 18-24 мес.</li>
-                            <li>Доход от 300 000 руб/мес.</li>
-                            <li>400 магазинов по РФ и СНГ</li>
-                        </ul>
-                        <a href="" class="franshise-btn color2">подробнее</a>
-                    </div>
+            </div>
+            <div class="franshise-items__item color2">
+                <figure class="franshise-items__figure">
+                    <img class="img-fluid" src="./img/logo-mpr.svg" width="226" height="80" alt="">
+                </figure>
+                <div class="franshise-items__content">
+                    <ul class="franshise-items__list">
+                        <li>Вложения от 3,9 млн руб</li>
+                        <li>Площадь от 80 кв.м</li>
+                        <li>Окупаемость 18-24 мес.</li>
+                        <li>Доход от 300 000 руб/мес.</li>
+                        <li>400 магазинов по РФ и СНГ</li>
+                    </ul>
+                    <a href="" class="franshise-btn color2">подробнее</a>
                 </div>
-                <div class="franshise-items__item color3">
-                    <figure class="franshise-items__figure">
-                        <img class="img-fluid" src="./img/logo-ermak.svg" width="224" height="49" alt="">
-                    </figure>
-                    <div class="franshise-items__content">
-                        <ul class="franshise-items__list">
-                            <li>вложения  1,7 млн р</li>
-                            <li>окупаемость 18 мес</li>
-                            <li>доход 15%,  300 т.р.</li>
-                            <li>доход 15%,  300 т.р.</li>
-                            <li>доход 15%,  300 т.р.</li>
-                        </ul>
-                        <a href="" class="franshise-btn color3">подробнее</a>
-                    </div>
+            </div>
+            <div class="franshise-items__item color3">
+                <figure class="franshise-items__figure">
+                    <img class="img-fluid" src="./img/logo-ermak.svg" width="224" height="49" alt="">
+                </figure>
+                <div class="franshise-items__content">
+                    <ul class="franshise-items__list">
+                        <li>вложения 1,7 млн р</li>
+                        <li>окупаемость 18 мес</li>
+                        <li>доход 15%, 300 т.р.</li>
+                        <li>доход 15%, 300 т.р.</li>
+                        <li>доход 15%, 300 т.р.</li>
+                    </ul>
+                    <a href="" class="franshise-btn color3">подробнее</a>
                 </div>
             </div>
         </div>
     </div>
-    <!--TODO: Модальные окна-->
-    <div class="remodal" data-remodal-id="modal-callback">
-        <button data-remodal-action="close" class="remodal-close"></button>
-        <div class="remodal__header">
-            <h1>оставить заявку на консультацию</h1>
+</div>
+<!--TODO: Модальные окна-->
+<div class="remodal remodal-callback" data-remodal-id="modal-callback">
+    <button data-remodal-action="close" class="remodal-close"></button>
+
+    <form action="" class="franshise-form">
+        <div class="franshise-form__header">
+            <div class="franshise-form__title">оставить заявку
+                <div>на</div>
+                консультацию
+            </div>
         </div>
-        <div class="remodal__body">
-            <!--TODO: forma-->
+        <div class="franshise-form__body">
+            <div class="form-group">
+                <input class="form-control" type="text" name="NAME" placeholder="Имя">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="text" name="PHONE" placeholder="Телефон">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="text" name="EMAIL" placeholder="E-mail">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="text" name="CITY" placeholder="Город">
+            </div>
         </div>
-        <div class="remodal__footer"></div>
+        <div class="franshise-form__footer">
+            <div class="form-group ">
+                <label for="soglas" class="checkbox-other">
+                    <input id="soglas" type="checkbox">
+                    <span>Я&nbsp;даю свое согласие на&nbsp;обработку моих персональных данных, в&nbsp;соответствии с&nbsp;Федеральным законом от&nbsp;27.07.2006 года &#8470;&nbsp;152-ФЗ &laquo;О&nbsp;персональных данных&raquo;, на&nbsp;условиях и&nbsp;для целей, определенных в&nbsp;Согласии на&nbsp;обработку персональных данных</span>
+                </label>
 
-
-
-        <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
-        <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.js" integrity="sha512-a/KwXZUMuN0N2aqT/nuvYp6mg1zKg8OfvovbIlh4ByLw+BJ4sDrJwQM/iSOd567gx+yS0pQixA4EnxBlHgrL6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            </div>
+            <button type="submit" class="franshise-form__btn">отправить</button>
+        </div>
+    </form>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.js"
+        integrity="sha512-a/KwXZUMuN0N2aqT/nuvYp6mg1zKg8OfvovbIlh4ByLw+BJ4sDrJwQM/iSOd567gx+yS0pQixA4EnxBlHgrL6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
