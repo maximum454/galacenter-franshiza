@@ -468,6 +468,7 @@ body {
     border-radius: 50px;
     padding: 20px;
     position: relative;
+    cursor: pointer;
 }
 .franshise-form__btn:after{
     content: '';
@@ -481,6 +482,9 @@ body {
     pointer-events: none;
     z-index: -1;
 }
+.franshise-form__btn:hover{
+    opacity: .5;
+}
 
 .remodal-callback{
     max-width: 1187px;
@@ -488,6 +492,119 @@ body {
 }
 .remodal-overlay{
     background: rgba(18,98, 216,.5);
+}
+
+.remodal-partner{
+    max-width: 1187px;
+    padding: 94px 95px 85px;
+    text-align: left;
+}
+
+
+.franshise-partner{}
+.franshise-partner__header{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 61px;
+}
+.franshise-partner__header:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #1262D8;
+    width: calc(100% - 320px);
+    height: 5px;
+    z-index: -1;
+}
+.franshise-partner__body{
+    max-width: 1080px;
+    margin: 0 auto 30px;
+}
+.franshise-partner__title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+    margin: 0 0 53px 53px;
+}
+.franshise-partner__body p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 45px;
+    color: #000000;
+}
+.franshise-partner__footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.franshise-partner__link{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FF7101;
+    text-decoration: none;
+}
+.franshise-partner__figure.color1{
+    border: 5px solid #1262D8;
+}
+.franshise-partner__figure.color2{
+    border: 5px solid #E30613;
+}
+.franshise-partner__figure.color3{
+    border: 5px solid #FF7101;
+}
+.franshise-partner.color1 .franshise-partner__list li:before{
+    background-color: #1262D8;
+}
+.franshise-partner.color2 .franshise-partner__list li:before{
+    background-color: #E30613;
+}
+.franshise-partner.color3 .franshise-partner__list li:before{
+    background-color: #FF7101;
+}
+.franshise-partner__figure{
+    width: 264px;
+    height: 264px;
+    background-color: #ffffff;
+    border: 5px solid #1262D8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 10px;
+    margin: 0 104px 0 0;
+}
+.franshise-partner__figure:before{
+    content: '';
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border: 0.5px solid #101011;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: -1;
+}
+.franshise-partner__figure.small{
+    width: 112px;
+    height: 112px;
+    margin: 0 50px 0 0;
+}
+.franshise-partner__figure.small:before{
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 8px;
 }
 
 @media (max-width: 1023px) {
