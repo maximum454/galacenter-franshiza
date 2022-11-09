@@ -486,6 +486,9 @@ body {
     max-width: 1187px;
     padding: 94px 115px 85px;
 }
+.remodal-overlay{
+    background: rgba(18,98, 216,.5);
+}
 
 @media (max-width: 1023px) {
     .franshise-hero__body{
