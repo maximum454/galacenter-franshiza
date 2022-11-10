@@ -258,6 +258,34 @@ body {
 
 .franshise-items{
     margin-bottom: 37px;
+    position: relative;
+}
+.franshise-items .decor{
+    display: none;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.franshise-items .decor1{
+    top: 17.4%;
+    left: -16px;
+    background-image: url(../img/franshise-hero-decor-bottom.svg);
+    width: 75px;
+    height: 118px;
+}
+.franshise-items .decor2{
+    top: 79%;
+    left: 33px;
+    background-image: url(../img/franshise-items-decor1.svg);
+    width: 26px;
+    height: 26px;
+}
+.franshise-items .decor3{
+    top: 49.5%;
+    right: 16px;
+    background-image: url(../img/franshise-items-decor2.svg);
+    width: 40px;
+    height: 40px;
 }
 .franshise-items__body{
     max-width: 1005px;
@@ -850,6 +878,9 @@ body {
 
     .franshise-items{
         margin-bottom: 100px;
+    }
+    .franshise-items .decor{
+        display: block;
     }
     .franshise-items__body{
         flex-wrap: wrap;
