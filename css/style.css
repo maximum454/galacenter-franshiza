@@ -1,9 +1,12 @@
 *{
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Open Sans', sans-serif;
+
 }
 
 .d-mobile{
@@ -202,6 +205,54 @@ body {
     line-height: 38px;
     color: #000000;
     margin: 0 0 39px;
+}
+
+.franshise-menu{
+    display: none;
+    padding: 35px 0 47px;
+}
+.franshise-menu__body{
+    max-width: 1005px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.franshise-menu__figure{
+    width: 87px;
+    height: 89px;
+    background-color: #ffffff;
+    border: 3px solid #1262D8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 8px;
+    margin: 0;
+}
+.franshise-menu__figure:before{
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: 6px;
+    width: 100%;
+    height: 100%;
+    border: 0.5px solid #101011;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: -1;
+}
+.franshise-menu__figure.color1{
+    border-color: #1262D8;
+}
+.franshise-menu__figure.color2{
+    border-color: #E30613;
+}
+.franshise-menu__figure.color3{
+    border-color: #FF7101;
 }
 
 
@@ -731,6 +782,9 @@ body {
         left: 3px;
     }
 
+    .franshise-hero{
+        margin-bottom: 0;
+    }
     .franshise-hero__decor .left{
         width: 49px;
         height: 40px;
@@ -788,6 +842,10 @@ body {
         line-height: 14px;
         padding: 8px;
         max-width: fit-content;
+    }
+
+    .franshise-menu{
+        display: block;
     }
 
     .franshise-items{
