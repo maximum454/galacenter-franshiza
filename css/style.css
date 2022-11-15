@@ -624,8 +624,11 @@ body {
     right: auto;
     width: calc(100% - 320px);
 }
-.franshise-partner__header.ermak .big{
+.franshise-partner__header.ermak .franshise-partner__figure{
     margin: 0 0 0 104px;
+}
+.franshise-partner__header.ermak .franshise-partner__figure.small{
+    margin: 0 0 0 122px;
 }
 .franshise-partner__body{
     max-width: 1080px;
@@ -786,6 +789,7 @@ body {
     position: absolute;
     top: 0;
     right: 14px;
+    cursor: pointer;
 }
 
 @media (max-width: 1023px) {
