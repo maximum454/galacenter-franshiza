@@ -42,7 +42,7 @@ body {
     padding: 18px;
     border: 2px solid #E30613;
     border-radius: 50px;
-    max-width: 354px;
+    max-width: 345px;
     width: 100%;
     text-align: center;
     display: flex;
@@ -136,7 +136,7 @@ body {
     height: 16px;
 }
 .franshise-hero__body{
-    max-width: 955px;
+    max-width: 995px;
     margin: 0 auto;
     padding: 0 20px;
     position: absolute;
@@ -288,11 +288,12 @@ body {
     height: 40px;
 }
 .franshise-items__body{
-    max-width: 1005px;
+    max-width: 1045px;
     margin: 0 auto;
     padding: 0 20px;
     display: flex;
-    gap: 38px;
+    justify-content: space-between;
+    gap: 38px 10px;
     position: relative;
 }
 .franshise-items__body:before{
@@ -340,8 +341,8 @@ body {
     background-color: #FF7101;
 }
 .franshise-items__figure{
-    width: 264px;
-    height: 264px;
+    width: 274px;
+    height: 274px;
     background-color: #ffffff;
     border: 5px solid #1262D8;
     border-radius: 50%;
@@ -355,8 +356,8 @@ body {
 .franshise-items__figure:before{
     content: '';
     position: absolute;
-    top: 22px;
-    left: 22px;
+    top: 20px;
+    left: 20px;
     width: 100%;
     height: 100%;
     border: 0.5px solid #101011;
@@ -412,11 +413,14 @@ body {
     border-radius: 50%;
 }
 .franshise-items .franshise-btn{
-    max-width: 259px;
+    max-width: 260px;
     margin: auto 0 0;
+    border-width: 3px;
+    padding: 18px 10px 15px;
 }
 .franshise-items .franshise-btn:before{
     left: 2px;
+    top: 4px;
 }
 
 .form-group {
