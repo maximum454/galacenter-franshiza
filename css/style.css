@@ -579,6 +579,9 @@ body {
 .remodal-overlay{
     background: rgba(18,98, 216,.5);
 }
+.remodal-wrapper{
+    padding: 10px 20px 0;
+}
 
 .remodal-partner{
     max-width: 1216px;
@@ -1021,6 +1024,66 @@ body {
     .franshise-btn:before{
         top: 3px;
         left: 2px;
+    }
+
+    .form-control{
+        font-size: 15px;
+        line-height: 20px;
+        border-width: 2px;
+    }
+    .checkbox-other span{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .checkbox-other span:before{
+        width: 13px;
+        height: 13px;
+        margin-right: 5px;
+    }
+
+
+    .remodal-callback{
+        max-width: 1196px;
+        padding: 23px 20px 40px;
+    }
+    .franshise-form{}
+    .franshise-form__header{
+        margin-bottom: 36px;
+    }
+    .franshise-form__title{
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .franshise-form__body{
+        grid-template-columns: 1fr;
+        grid-gap: 14px;
+        margin: 0 auto 31px;
+        padding: 0 28px;
+    }
+    .franshise-form__footer{
+        margin: 0 -8px;
+    }
+    .franshise-form__btn{
+        font-size: 13px;
+        line-height: 13px;
+        max-width: 194px;
+        margin: 30px auto 0;
+        padding: 18px 10px;
+    }
+    .franshise-form__btn:after{
+        content: '';
+        position: absolute;
+        top: 3px;
+        left: 4px;
+        width: 100%;
+        height: 100%;
+        border: 0.5px solid #101011;
+        border-radius: 50px;
+        pointer-events: none;
+        z-index: -1;
+    }
+    .franshise-form__btn:hover{
+        opacity: .5;
     }
 
 }
