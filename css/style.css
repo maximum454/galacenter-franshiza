@@ -425,17 +425,16 @@ body {
 .form-control {
     display: block;
     width: 100%;
-    padding: 0.5rem 0.75rem;
+    padding: 10px;
     background-color: #fff;
     background-clip: padding-box;
     border: none;
-    border-bottom: 5px solid #1262D8;
+    border-bottom: 3px solid #1262D8;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 20px;
+    line-height: 27px;
     text-transform: capitalize;
     color: #000000;
     text-align: center;
@@ -464,7 +463,7 @@ body {
     display: inline-block;
     position: relative;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 36px;
 }
 .checkbox-other span:before {
@@ -509,13 +508,13 @@ body {
 
 .franshise-form{}
 .franshise-form__header{
-    margin-bottom: 41px;
+    margin-bottom: 60px;
 }
 .franshise-form__title{
     font-family: 'Open Sans';
     font-weight: 700;
-    font-size: 28px;
-    line-height: 38px;
+    font-size: 24px;
+    line-height: 33px;
     text-align: center;
     letter-spacing: 0.05em;
     text-transform: uppercase;
@@ -525,11 +524,12 @@ body {
 .franshise-form__body{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 102px 20px;
-    margin-bottom: 66px;
+    grid-gap: 50px 20px;
+    max-width: 954px;
+    margin: 0 auto 62px;
 }
 .franshise-form__footer{
-    max-width: 897px;
+    max-width: 954px;
     margin: 0 auto;
     text-align: left;
 }
@@ -541,8 +541,8 @@ body {
     line-height: 27px;
     color: #FFFFFF;
     width: 100%;
-    max-width: 342px;
-    margin: 80px auto 0;
+    max-width: 264px;
+    margin: 66px auto 0;
     display: block;
     text-decoration: none;
     border: none;
@@ -569,8 +569,8 @@ body {
 }
 
 .remodal-callback{
-    max-width: 1187px;
-    padding: 94px 115px 85px;
+    max-width: 1196px;
+    padding: 70px 20px 90px;
 }
 .remodal-overlay{
     background: rgba(18,98, 216,.5);
@@ -608,6 +608,18 @@ body {
     background-color: #E30613;
     width: 100%;
 }
+.franshise-partner__header.ermak{
+    justify-content: flex-end;
+}
+.franshise-partner__header.ermak:after{
+    background-color: #FF7101;
+    left: 0;
+    right: auto;
+    width: calc(100% - 320px);
+}
+.franshise-partner__header.ermak .big{
+    margin: 0 0 0 104px;
+}
 .franshise-partner__body{
     max-width: 1080px;
     margin: 0 auto 30px;
@@ -640,6 +652,15 @@ body {
     line-height: 24px;
     color: #FF7101;
     text-decoration: none;
+}
+.franshise-partner__link.color1{
+    color: #FF7101;
+}
+.franshise-partner__link.color2{
+    color: #E30613;
+}
+.franshise-partner__link.color3{
+    color: #1262D8;
 }
 .franshise-partner__figure.color1{
     border: 5px solid #1262D8;
@@ -737,14 +758,19 @@ body {
     height: 8px;
     border-radius: 50%;
 }
-.franshise-items__item.color1 .franshise-items__list li:before{
-    background-color: #1262D8;
-}
-.franshise-items__item.color2 .franshise-items__list li:before{
-    background-color: #E30613;
-}
-.franshise-items__item.color3 .franshise-items__list li:before{
-    background-color: #FF7101;
+.franshise-partner__close{
+    display: block;
+    background-color: transparent;
+    border: none;
+    max-width: fit-content;
+    margin: 74px auto 0;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #1262D8;
 }
 
 @media (max-width: 1023px) {
