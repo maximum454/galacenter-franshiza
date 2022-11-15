@@ -712,15 +712,6 @@ body {
 .franshise-partner__figure.color3{
     border: 5px solid #FF7101;
 }
-.franshise-partner.color1 .franshise-partner__list li:before{
-    background-color: #1262D8;
-}
-.franshise-partner.color2 .franshise-partner__list li:before{
-    background-color: #E30613;
-}
-.franshise-partner.color3 .franshise-partner__list li:before{
-    background-color: #FF7101;
-}
 .franshise-partner__figure{
     width: 274px;
     height: 274px;
@@ -802,6 +793,16 @@ body {
     width: 8px;
     height: 8px;
     border-radius: 50%;
+}
+
+.franshise-partner__list.color1 li:before{
+    background-color: #1262D8;
+}
+.franshise-partner__list.color2 li:before{
+    background-color: #E30613;
+}
+.franshise-partner__list.color3 li:before{
+    background-color: #FF7101;
 }
 .franshise-partner__close{
     display: block;
