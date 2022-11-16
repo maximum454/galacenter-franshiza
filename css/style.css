@@ -963,7 +963,7 @@ body {
         color: #1262D8;
     }
 
-    .remodal-wrapper{
+    .remodal-wrapper.remodal-overlay-partners{
         padding: 0;
     }
     .remodal-partner{
