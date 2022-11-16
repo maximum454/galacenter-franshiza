@@ -1061,6 +1061,9 @@ body {
 
     .franshise-menu{
         display: block;
+        border-top: 1px solid #1262D8;
+        border-bottom: 1px solid #1262D8;
+        margin-bottom: 10px;
     }
 
     .franshise-items{
